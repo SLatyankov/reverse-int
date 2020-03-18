@@ -1,3 +1,1 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = number => parseFloat(number.toString().split('').reverse().join(''));
